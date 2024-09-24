@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "ml-challenge-24"
+version = "0.1.0"
+description = "start kit for Algorithms Summit 2024 ML Challenge"
+authors = ["Al Dujaili, Ash <ash.aldujaili@analog.com>"]
+readme = "README.md"
+packages = [{include = "ml_challenge"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+pydantic = "^1.10.9"
+python-dotenv = "^1.0.0"
+jupyter = "^1.0.0"
+ipykernel = "^6.23.1"
+matplotlib = "^3.7.1"
+tqdm = "^4.65.0"
+black = "^23.3.0"
+pandas = "^2.0.3"
+scikit-learn = "^1.0.2"
+fastembed = "^0.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

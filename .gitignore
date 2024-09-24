@@ -1,0 +1,10 @@
+*.env
+**cache
+*DS_Store
+*.lock
+**/**/__pycache__
+**checkpoints
+*.npy
+*.log
+*.json
+
